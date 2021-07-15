@@ -54,6 +54,14 @@
 <link rel="stylesheet" href="style.css">
     
     <script src="js/modernizr-3.7.1.min.js"></script>
+    <style>
+        .item-title-sub strong {
+            margin-right: 5px;
+        }
+        .help-block with-errors {
+            color: darkred;
+        }
+    </style>
 </head>
 
 <body class="sticky-header">
@@ -113,9 +121,9 @@
                 <li>
                     <a href="nieuwbouw/woningen" title="Nieuwbouw van woningen en villa's">Woningen & villa's</a>
                 </li>
-                <li>
-                    <a href="nieuwbouw/verkavelingen" title="Nieuwbouw van verkavelingen">Verkavelingen</a>
-                </li>
+
+
+
             </ul>
         </li>
         <li>
@@ -182,7 +190,7 @@
                             <h3 class="mg-b-10">Contacteer ons</h3>
                             <p>Om contact met ons op te nemen, gelieve onderstaand formulier in te vullen. We proberen u zo snel mogelijk een antwoord te bezorgen.</p>
                         </div>
-                        <form class="contact-form-box" id="contact-form" action="https://formspree.io/dummy" method="POST">
+                        <form class="contact-form-box" id="contact-form" action="https://formspree.io/f/mnqlbzdp" method="POST">
                             <div class="row gutters-15">
                                 <div class="col-md-12 col-12 form-group">
                                     <input type="text" placeholder="Naam *" class="form-control" name="Naam" data-error="Gelieve een naam in te geven" required>
@@ -201,7 +209,7 @@
                                     <div class="help-block with-errors"></div>
                                 </div>
                                 <div class="col-md-6 col-12 form-group">
-                                    <input type="email" placeholder="Postcode *" class="form-control" name="Postcode" data-error="Gelieve een postcode in te geven" required>
+                                    <input type="text" placeholder="Postcode *" class="form-control" name="Postcode" data-error="Gelieve een postcode in te geven" required>
                                     <div class="help-block with-errors"></div>
                                 </div>
                                 <div class="col-md-6 col-12 form-group">

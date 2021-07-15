@@ -41,7 +41,7 @@
             });
         }
     }
-    makeAjaxCall($('#contact-form'), "https://formspree.io/xzbjegoj");
+    makeAjaxCall($('#contact-form'), "https://formspree.io/f/mnqlbzdp");
 
     $('.show-popup').tooltip();
 
